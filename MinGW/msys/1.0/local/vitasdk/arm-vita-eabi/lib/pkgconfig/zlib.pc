@@ -1,4 +1,4 @@
-prefix=/usr/local/vitasdk/arm-vita-eabi
+prefix=/var/lib/jenkins/workspace/toolchain-vita/vita
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}

@@ -17,14 +17,14 @@ old_library='libpng16.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/vitasdk/arm-vita-eabi/lib -lz -lm'
+dependency_libs=' -L/var/lib/jenkins/workspace/toolchain-vita/vita/lib -lz -lm'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
 
 # Version information for libpng16.
-current=36
-age=20
+current=39
+age=23
 revision=0
 
 # Is this an already installed library?
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/vitasdk/arm-vita-eabi/lib'
+libdir='/var/lib/jenkins/workspace/toolchain-vita/vita/lib'

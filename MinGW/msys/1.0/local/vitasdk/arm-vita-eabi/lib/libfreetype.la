@@ -17,7 +17,7 @@ old_library='libfreetype.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/vitasdk/arm-vita-eabi/lib -L=C:/PSDK3v2/MinGW/msys/1.0/local/vitasdk/arm-vita-eabi/lib -lz'
+dependency_libs=' -L/var/lib/jenkins/workspace/toolchain-vita/vita/lib /var/lib/jenkins/workspace/toolchain-vita/vita/lib/libpng16.la -lz -lm'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -25,7 +25,7 @@ weak_library_names=''
 # Version information for libfreetype.
 current=18
 age=12
-revision=5
+revision=3
 
 # Is this an already installed library?
 installed=yes
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/vitasdk/arm-vita-eabi/lib'
+libdir='/var/lib/jenkins/workspace/toolchain-vita/vita/lib'
