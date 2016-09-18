@@ -1,0 +1,14 @@
+prefix=/var/lib/jenkins/workspace/toolchain-vita/vita
+exec_prefix=/var/lib/jenkins/workspace/toolchain-vita/vita
+libdir=/var/lib/jenkins/workspace/toolchain-vita/vita/lib
+includedir=/var/lib/jenkins/workspace/toolchain-vita/vita/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 18.3.12
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
